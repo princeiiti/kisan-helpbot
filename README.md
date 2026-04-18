@@ -24,12 +24,20 @@ The application is orchestrated using **LangGraph**, employing a dynamic agent t
 
 ## 🛠️ Technology Stack
 
+**Databricks Ecosystem:**
+- **Databricks Apps:** For scalable hosting and deployment of the Streamlit application.
+- **Databricks Notebooks:** Used for development, data preprocessing, and vector store initialization.
+- **Delta Lake & PySpark:** For robust data staging, storage, and processing (Delta tables and Spark DataFrames).
+
+**Open Source Models:**
+- **LLM Engine:** Open-source models hosted via HuggingFace Inference API (`deepseek-ai/DeepSeek-R1:fastest` and `openai/gpt-oss-120b:fastest`).
+- **Embeddings:** `sentence-transformers/all-MiniLM-L6-v2` for generating embeddings to power the RAG pipeline.
+
+**Application Framework:**
 - **Agent Framework:** LangGraph, LangChain
-- **LLM Engine:** HuggingFace Inference API (`deepseek-ai/DeepSeek-R1:fastest` or `openai/gpt-oss-120b:fastest`)
-- **Vector Database:** FAISS (with PySpark/Delta Lake for data staging)
-- **Embeddings:** HuggingFace `sentence-transformers/all-MiniLM-L6-v2`
+- **Vector Database:** FAISS
 - **Search Tool:** DuckDuckGo Search API
-- **Frontend / App:** Streamlit (via `app.py` / `dashboard.py`)
+- **Frontend / UI:** Streamlit (via `app.py` / `dashboard.py`)
 
 ---
 
