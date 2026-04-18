@@ -2,6 +2,8 @@
 
 **Fasal Mitra** is an AI-powered, multilingual agriculture assistant designed to support Indian farmers. By combining **Retrieval-Augmented Generation (RAG)** for verified agricultural practices with **Agentic Web Search** for real-time government schemes, it provides reliable, actionable, and localized advice step-by-step.
 
+**🔗 Try the Live App on Databricks:** [https://fmitra-7474650359868011.aws.databricksapps.com/](https://fmitra-7474650359868011.aws.databricksapps.com/)
+
 ---
 
 ## 🚀 Features
