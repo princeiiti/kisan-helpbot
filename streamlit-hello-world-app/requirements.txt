@@ -1,0 +1,13 @@
+langchain==0.3.11
+langchain-core==0.3.24
+langchain-community==0.3.11
+langchain-text-splitters==0.3.2
+langgraph==0.2.58
+sentence-transformers==3.3.1
+chromadb==0.5.23
+huggingface-hub>=0.24.0
+streamlit==1.44.1
+fastapi==0.115.6
+pydantic==2.10.4
+uvicorn==0.34.0
+faiss-cpu==1.9.0
